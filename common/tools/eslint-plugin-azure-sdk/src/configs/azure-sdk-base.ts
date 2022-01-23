@@ -38,6 +38,7 @@ export default {
       }
     ],
     "no-console": "off",
+    "no-duplicate-imports": "error",
     "no-dupe-class-members": "off",
     "no-invalid-this": "off",
     "no-empty": "error",

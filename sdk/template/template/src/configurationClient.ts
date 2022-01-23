@@ -13,7 +13,8 @@ import { SpanStatusCode } from "@azure/core-tracing";
 
 import { SDK_VERSION } from "./constants";
 import { logger } from "./logger";
-import { ConfigurationSetting, GeneratedClient } from "./generated";
+import { ConfigurationSetting } from "./generated";
+import { GeneratedClient } from "./generated";
 import { createSpan } from "./tracing";
 import { quoteETag } from "./util";
 
